@@ -7,9 +7,11 @@ using namespace std;
 
 
 int main() {
+
+     setlocale( LC_ALL, "" );
    int number;
 
-   cout << "Podaj liczbę całkowitą:";
+   cout << "Podaj liczbe całkowitą: ";
    cin >> number;
 
    if(number > 0) {

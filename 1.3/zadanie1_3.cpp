@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int number;
 
-    cout << "Podaj liczbę: ";
+    cout << "Podaj liczbę całkowitą: ";
     cin >> number;
 
     if(number%2 == 0) {
